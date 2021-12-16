@@ -1,20 +1,15 @@
 # Marcus Kordunski
-## RS School Frontend Student
+### RS School Frontend Student
 
 ***
 
 ### Contact information: 
 
-**Phone:** :poland:+48722736181
-
-**E-mail:** marikord26@gmail.com
-
-**Telegram:** @dreamrealm
-
-**Location:** Warsaw, Poland
-
-**Discord:** Marcus Kordunski#6473
-
+**Phone:** +48722736181 <br>
+**E-mail:** marikord26@gmail.com<br>
+**Telegram:** @dreamrealm<br>
+**Location:** Warsaw, Poland<br>
+**Discord:** Marcus Kordunski#6473<br>
 [GitHub](https://github.com/MarcusKordunski)
 
 ***
@@ -53,7 +48,7 @@ const makeItFunny = (str, charNumber) => {
   realIndex+= 1;
   }
   return result;
-}
+};
 ```
 
 ***
@@ -62,14 +57,9 @@ const makeItFunny = (str, charNumber) => {
 
 | Project      | Skills used    |
 | ------------- |:-------------:| 
-|               |           |
-| [CV](https://MarcusKordunski.github.io/rsschool-cv/cv) | Markdown & Git |
-|               |           |
-|               |           |
-| 
-|               |           |
-|  *To be continued..*       |
-|               |           |
+| [CV](https://MarcusKordunski.github.io/rsschool-cv/cv) | Markdown & Git |               
+|      *To be continued..*     |
+
 
 
 ***
@@ -77,12 +67,14 @@ const makeItFunny = (str, charNumber) => {
 ### Courses:
 
 Code-basics.com CSS, HTML and JS courses:
-![CSS course](https://github.com/MarcusKordunski/rsschool-cv/blob/gh-pages/css-course.PNG "CSS course")
-![HTML course](https://github.com/MarcusKordunski/rsschool-cv/blob/gh-pages/html-course.PNG "HTML course")
-![JS course](https://github.com/MarcusKordunski/rsschool-cv/blob/gh-pages/js-course.PNG "JS course")
+
+![CSS course](/css-course.PNG "CSS course")
+![HTML course](/html-course.PNG "HTML course")
+![JS course](/js-course.PNG "JS course")
 
 Python stepik.org course:
-![Python course](https://github.com/MarcusKordunski/rsschool-cv/blob/gh-pages/python%20-%20course.PNG "Python course")
+
+![Python course](/python%20-%20course.PNG "Python course")
 
 ***
 
