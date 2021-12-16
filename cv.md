@@ -68,13 +68,13 @@ const makeItFunny = (str, charNumber) => {
 
 Code-basics.com CSS, HTML and JS courses:
 
-![CSS course](/css-course.PNG "CSS course")
-![HTML course](/html-course.PNG "HTML course")
-![JS course](/js-course.PNG "JS course")
+![CSS course](./css-course.PNG "CSS course")
+![HTML course](./html-course.PNG "HTML course")
+![JS course](./js-course.PNG "JS course")
 
 Python stepik.org course:
 
-![Python course](/python%20-%20course.PNG "Python course")
+![Python course](./python%20-%20course.PNG "Python course")
 
 ***
 
