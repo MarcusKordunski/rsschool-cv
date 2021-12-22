@@ -5,7 +5,7 @@
 
 ### Contact information: 
 
-**Phone:** +48722736182 <br>
+**Phone:** +48722736181 <br>
 **E-mail:** marikord26@gmail.com<br>
 **Telegram:** @dreamrealm<br>
 **Location:** Warsaw, Poland<br>
