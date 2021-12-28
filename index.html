@@ -5,11 +5,113 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+
+	<title>Marcus Kordunski</title>
+	<link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-	1
+	<header>
+		<section class="name">
+			<h1>Marcus Kordunski</h1>
+			<p>Beginner front-end developer</p>
+		</section>
+		<section class="profile">
+			<h2>Profile</h2>
+			<p>My name is Marcus and I’m 21 years old. For now I’m student of RS School and using every source of knowledge
+				to make my skills of frontend development better. Loving what I’m doing now and happy about getting paid for
+				it as my future full-time job.</p>
+		</section>
+		<figure class="avatar">
+			<img src="./assets/img/MyPhoto.jpg" alt="My photo">
+			<p class="star1">✦</p>
+			<p class="star2">✦</p>
+		</figure>
+		<section class="contacts">
+			<h2>Contacts</h2>
+			<ul>
+				<li>Phone: +48722736181</li>
+				<li>E-mail: marikord26@gmail.com</li>
+				<li>Telegram: @dreamrealm</li>
+				<li>Discord: Marcus Kordunski#6473</li>
+				<li><a href="https://github.com/MarcusKordunski">My GitHub</a></li>
+			</ul>
+		</section>
+		<section class="location">
+			<h3>Location</h3>
+			<p>Warsaw, Poland</p>
+		</section>
+	</header>
+	<main>
+		<section class="education">
+			<h2>Education</h2>
+			<ul>
+				<li>
+					<h3>The Rolling Scopes School</h3>
+					<p>Front-end developing courses<br>
+						2021 - Now</p>
+				</li>
+				<li>
+					<h3>Stepik.org</h3>
+					<p>Free python beginner course<br>
+						2020 - 2021</p>
+				</li>
+			</ul>
+		</section>
+		<section class="code-example">
+			<h2>Code example</h2>
+			<p>Code basics exercise: Write a makeItFunny() function that takes a string as input and returns a copy of
+				it,
+				with every nth element uppercase. n - input to the function.</p>
+			<pre><code>
+				const makeItFunny = (str, charNumber) => {
+					let i = 0;
+					let realIndex = 1;
+					let result = '';
+					while (str.length > i) {
+					  if (realIndex % charNumber === 0) {
+						 result = `${result}${str[i].toUpperCase()}`;
+					  } else {
+						 result = `${result}${str[i]}`;
+					  }
+					i += 1;
+					realIndex+= 1;
+					}
+					return result;
+				 };
+			</code></pre>
+		</section>
+		<section class="projects">
+			<h2>Projects</h2>
+			<p>11111111111111</p>
+			<p>1111111111111</p>
+			<p>1111111111111</p>
+		</section>
+		<section class="skills">
+			<h2>Skills</h2>
+			<h3>HTML5</h3>
+			<h3>CSS3</h3>
+			<h3>Git</h3>
+			<h3>Java Script</h3>
+			<h3>Python</h3>
+		</section>
+		<section class="language">
+			<h2>Language</h2>
+			<h3>English</h3>
+			<h3>Russian</h3>
+			<h3>Polish</h3>
+		</section>
+	</main>
+	<footer>
+		<section class="References">
+			<h2>References</h2>
+			<div><a href="https://github.com/MarcusKordunski">My Github</a></div>
+			<div><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School"
+						width="40px" height="40px"></a></div>
+			<p>2021</p>
+		</section>
+	</footer>
+
 </body>
 
 </html>
