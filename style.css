@@ -244,6 +244,10 @@ body::-webkit-scrollbar-thumb {
 	bottom: 450px;
 }
 
+.projects table,thead,tbody {
+	border-collapse: collapse;
+}
+
 .projects th, td {
 	border: .1em solid #706c60;
 	padding: 15px;
@@ -268,7 +272,7 @@ body::-webkit-scrollbar-thumb {
 	bottom: 750px;
 }
 
-.references {
+footer {
 	position: relative;
 	left: 800px;
 	bottom: 720px;
