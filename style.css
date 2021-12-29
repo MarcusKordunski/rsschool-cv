@@ -8,6 +8,7 @@
 	box-sizing: border-box;
 	font-family: Rodin, Arial, Helvetica, sans-serif;
 }
+ 
 
 body {
 	background-color: #cec8b0;
@@ -19,6 +20,10 @@ body {
 	overflow-x: hidden;
 	zoom: 80%;
 	height: 1850px;
+}
+
+main {
+	height: 1000px;
 }
 
 a {
@@ -282,23 +287,26 @@ footer {
 	position: relative;
 	display: inline-block;
 	right: 20px;
+	top: 650px;
 }
 
 .footer-rss {
 	position: relative;
 	display: inline-block;
 	top: 20px;
+	top: 670px;
 }
 
 .footer-year {
 	position: relative;
 	display: inline-block;
 	left: 20px;
+	top: 650px;
 }
 
 nav a {
 	position: relative;
-	bottom: 770px;
+	bottom: 130px;
 	left: 45%;
 	text-decoration: none;
 	color: #7d7b6c;
