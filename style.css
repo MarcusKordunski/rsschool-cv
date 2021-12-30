@@ -27,6 +27,10 @@ main {
 	height: 1000px;
 }
 
+figure.avatar {
+	height: 300px;
+}
+
 a {
 	color: #706c60;
 }
@@ -59,8 +63,8 @@ header {
 	position: relative;
 	height: 1px;
 	width: 170px;
-	border-bottom: 3px solid #a09d92;
-	border-radius: 20%;
+	border-bottom: 4px solid #a09d92;
+	z-index: 7;
 }
 
 .hl1 {
@@ -71,6 +75,55 @@ header {
 .hl2 {
 	top: 230px;
 	left: 850px;
+}
+
+@keyframes contact-animation {
+	0% {bottom: 860px;}
+	30% {bottom: 1045px;}
+	35% {bottom: 860px;}
+ }
+
+.github-logo {
+	position: relative;
+	bottom: 860px;
+	left: 865px;
+	z-index: 4;
+	animation-name: contact-animation;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+
+.discord-logo {
+	position: relative;
+	bottom: 860px;
+	left: 576px;
+	z-index: 4;
+	animation-name: contact-animation;
+	animation-duration: 15s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+}
+
+.telegram-logo {
+	position: relative;
+	bottom: 860px;
+	left: 719px;
+	z-index: 4;
+	animation-name: contact-animation;
+	animation-duration: 15s;
+	animation-delay: 10s;
+	animation-iteration-count: infinite;
+}
+
+.hide-container {
+	position: relative;
+	left: 850px;
+	bottom: 668px;
+	width: 170px;
+	height: 200px;
+	background-color: #cec8b0;
+	z-index: 5;
 }
 
 .avatar {
@@ -92,7 +145,7 @@ body::-webkit-scrollbar-thumb {
 .star1 {
 	position: relative;
 	font-size: 4em;
-	z-index: 5;
+	z-index: 3;
 	bottom: 1000px;
 	right: 208px;
 	color: #8b8778;
@@ -116,7 +169,7 @@ body::-webkit-scrollbar-thumb {
 .star2 {
 	position: relative;
 	font-size: 4em;
-	z-index: 5;
+	z-index: 3;
 	bottom: 1365px;
 	left: 208px;
 	color: #8b8778;
@@ -145,7 +198,7 @@ body::-webkit-scrollbar-thumb {
 
 .contacts {
 	position: relative;
-	bottom: 1840px;
+	bottom: 840px;
 	left: 700px;
 	font-size: 1.1em;
 	line-height: 1.4em;
@@ -159,7 +212,7 @@ body::-webkit-scrollbar-thumb {
 .location {
 	position: relative;
 	right: 0px;
-	bottom: 1466px;
+	bottom: 825px;
 	font-size: 1.5em;
 	text-align: right;
 }
